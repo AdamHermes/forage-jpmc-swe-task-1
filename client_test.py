@@ -18,6 +18,11 @@ class ClientTest(unittest.TestCase):
 
 
   """ ------------ Add more unit tests ------------ """
+  def test_getDatapoint(self):
+    quotes = [
+      {'top_ask':{'price': 120.4, 'size': 29}, 'timestamp': '2019-06-06 14:05:30.56789', 'top_bid':{'price': 121.56, 'size': 83}, 'id':'1.9832372321','stock':'ABC'},
+      {'top_ask': {'price': 126.7, 'size': 43}, 'timestamp': '2019-06-06 14:05:30.56789', 'top_bid': {'price': 133.12, 'size': 143}, 'id': '1.9832372321', 'stock': 'DEF'}
+    ]
 
 
 
